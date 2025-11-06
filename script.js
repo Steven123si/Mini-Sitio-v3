@@ -1,9 +1,9 @@
 const menuToggle = document.getElementById('menu-toggle');
 const menu = document.getElementById('menu');
 
-// menuToggle.addEventListener('click', () => {
-//   menu.classList.toggle('show');
-// });
+menuToggle.addEventListener('click', () => {
+  menu.classList.toggle('show');
+});
 
 const form = document.getElementById('form-suscripcion');
 const emailInput = document.getElementById('email');
