@@ -93,3 +93,31 @@ footer {
     display: flex;
   }
 }
+
+.contacto {
+  padding: 2rem;
+  background: #f4f4f4;
+  margin-top: 2rem;
+  border-radius: 10px;
+}
+
+.contacto form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.contacto input, .contacto textarea {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contacto button {
+  padding: 0.8rem;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
