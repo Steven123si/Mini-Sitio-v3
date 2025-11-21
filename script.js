@@ -22,3 +22,14 @@ form.addEventListener('submit', (e) => {
     form.reset();
   }
 });
+
+// --- SECCIÓN CONTACTO ---
+const formContacto = document.getElementById('form-contacto');
+const mensajeExito = document.querySelector('.mensaje-exito');
+
+if (formContacto) {
+  formContacto.addEventListener('submit', (event) => {
+    event.preventDefault();
+    mensajeExito.style.display = "block";
+  });
+}
