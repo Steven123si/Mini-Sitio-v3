@@ -1,47 +1,28 @@
-# API REST - Node.js + Express + Prisma + Supabase
+# Mini-Sitio v3
 
-## Descripción
-API REST para gestión de usuarios y tareas construida con Node.js, Express, Prisma y PostgreSQL en Supabase.
+Proyecto integrador correspondiente a la **Semana 3 – Issues, Kanban y Trazabilidad**, del módulo **Control de Versiones (ABP 2025)**.
 
-## Instalación
-```bash
-npm install
-```
+Este proyecto tiene como objetivo aplicar buenas prácticas en el uso de **Git y GitHub**, aprendiendo a convertir necesidades en *issues*, gestionarlas con un tablero **Kanban**, y vincular commits o Pull Requests con issues para lograr una **trazabilidad completa** del trabajo realizado.
 
-## Configuración
+---
 
-Crea un archivo `.env` con tu cadena de conexión a Supabase:
-```env
-DATABASE_URL="postgresql://..."
-```
+## Descripción general
 
-## Ejecutar migraciones
-```bash
-npx prisma migrate dev
-```
+**Mini-Sitio v3** es una página web simple compuesta por tres archivos principales:
 
-## Iniciar servidor
-```bash
-npm start
-```
+- `index.html` → estructura del sitio web  
+- `style.css` → estilos y diseño responsivo  
+- `script.js` → lógica de interacción (menú móvil y formulario de suscripción)
 
-El servidor corre en `http://localhost:3000`
+El sitio incluye:
+- Un **menú adaptable** que se despliega en dispositivos móviles.  
+- Un **formulario de suscripción** al newsletter con validación.  
+- Un flujo de trabajo gestionado en GitHub con **issues, Kanban y trazabilidad automática**.
 
-## Endpoints
+---
 
-### Users
-- `POST /users` - Crear usuario
-- `GET /users` - Listar usuarios
-- `GET /users/:id` - Obtener usuario por ID
+## Instalación y ejecución
 
-### Tasks
-- `POST /tasks` - Crear tarea
-- `GET /tasks` - Listar tareas
-- `GET /tasks/user/:userId` - Listar tareas por usuario
-
-## Tecnologías
-- Node.js
-- Express
-- Prisma ORM
-- PostgreSQL (Supabase)
-
+1. Clonar el repositorio:
+   ```bash
+   git clone https://github.com/Steven123si/Mini-Sitio-v3.git
